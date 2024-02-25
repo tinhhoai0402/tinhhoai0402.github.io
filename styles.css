@@ -1,0 +1,297 @@
+body { /*BIG PART*/
+    
+    height: 100%;
+    margin: 0;
+
+    background-image: linear-gradient(to bottom right,  #F0E8E2, #E6E6E4);
+    font-family: Poppins, Helvetica;
+
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+
+header {   /*BIG PART*/
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+    justify-content: space-around;
+
+    align-items: center;
+}
+
+header nav {
+
+    width: 442.5px;
+    height: 26px;
+    align-items: center;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+
+header nav a {
+    width: 60px;
+    height: 26px;
+    text-align: center;
+
+    color: #1F1D2A;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+header nav a:hover {
+    color: #1F1D2A;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 20%;
+    font-weight: 800;
+}
+
+.webname {
+    font-size: 32px;
+    color: #1F1D2A;
+}
+
+.webname:hover {
+    cursor: pointer;
+}
+
+header button {
+    width: 110px;
+    height: 45px;
+
+    color: #1F1D2A;
+    background-color: inherit;
+
+    border: 2px solid #1F1D2A;
+
+    border-radius: 6px;
+
+
+    font-family: Poppins, Helvetica;
+    font-weight: bold;
+}
+
+header button:hover {
+    cursor: pointer;
+}
+
+.herobanner { /*BIG PART*/
+
+
+    margin-top: 3%;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    align-items: center;
+
+}
+
+.herobanner section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    row-gap: 20px;
+
+    width: 600px;
+
+    
+    position: relative;
+    left: 8%;
+}
+
+.herobanner section h3 {
+
+    display: block;
+
+    margin: 0;
+    font-size: 55px;
+    font-family: Poppins, Helvetica;
+    
+    color: #1F1D2A;
+
+}
+
+.herobanner section p {
+    font-size: 16px;
+    font-family: Poppins, Helvetica;
+    display: block;
+    
+    color: #9B948E;
+
+}
+
+
+.herobanner section button {
+
+    font-size: 20px;
+    font-family: Poppins, Helvetica;
+    font-weight: bold;
+    width: 170px;
+    height: 70px;
+
+    color: #1F1D2A;
+    background-color: #96C67F;
+    border: 0px;
+    border-radius: 10px;
+}
+
+.herobanner section button:hover {
+    cursor: pointer;
+
+    box-shadow: 5px 5px 5px;
+    position: relative;
+    left: -1%;
+}
+
+.herobanner aside {
+
+    position: relative;
+    width: 500px;
+    height: 500px;
+
+}
+
+.character {
+    position: absolute;
+
+    border-radius: 50%;
+}
+
+.description {
+    position: absolute;
+    top: 80%;
+}
+
+.next-button {
+    position: absolute;
+    
+    left: 100%;
+    bottom: 50%;
+    transform: translate(-50%, 50%);
+    
+}
+
+.next-button:hover {
+    cursor: pointer;
+}
+
+
+.trusted { /*BIG PART*/
+
+    margin-top: 5%;
+}
+
+.trusted p {
+    text-align: center;
+
+    color: #1F1D2A;
+    font-weight: bold;
+}
+
+.trusted .partners_logo{
+    margin-top: 2%;
+    display: flex;
+
+    height: 30px;
+    
+
+    justify-content: center;
+    gap: 4%;
+}
+
+.trusted .partners_logo img {
+    height: 30px;
+}
+
+.teachers { /*BIGPART*/
+
+    margin-top: 5%;
+}
+
+.teacher_header {
+}
+
+.teacher_header p {
+    text-align: center;
+
+    font-size: 18px;
+    font-weight: bold;
+
+
+    font-family: Poppins, Helvetica;
+}
+
+.teacher_header h6 {
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+
+    margin: 0;
+
+    font-family: Poppins, Helvetica;
+
+}
+
+.teacher_content {
+
+    margin-top: 4%;
+    margin-bottom: 8%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    gap: 5%;
+}
+
+.teacher_item {
+    overflow: hidden;
+    background-color: white;
+
+    border-radius: 20px;
+    box-shadow: #1F1D2A;
+}
+
+.teacher_item:hover {
+    cursor: pointer;
+
+    box-shadow: 5px 5px 5px;
+
+    position: relative;
+    left: -0.5%;
+}
+
+.teacher_item img {
+    width: 295px;
+    height: 350px;
+
+    object-fit: cover;
+}
+
+.teacher_info {
+    padding: 8px;
+}
+
+.teacher_info p{
+    position: relative;
+    left: 8%;
+
+    color: #9B948E;
+    font-family: Poppins, Helvetica;
+}
+
+p.teacher_name{
+    color: #1F1D2A;
+    font-size: 20px;
+    font-weight: bold;
+}
